@@ -1,7 +1,7 @@
 Exif
 ====
 
-	go get github.com/tajtiattila/metadata/exif
+	go get github.com/robertkaelin/metadata/exif
 
 Package exif provides support for reading and writing JPEG/Exif files.
 

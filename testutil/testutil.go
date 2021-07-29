@@ -11,7 +11,7 @@ func MediaRoot(t *testing.T) string {
 	if v := os.Getenv("MEDIA_TEST"); v != "" {
 		return v
 	}
-	const testMedia = "github.com/tajtiattila/test-media"
+	const testMedia = "github.com/robertkaelin/test-media"
 	for _, x := range filepath.SplitList(os.Getenv("GOPATH")) {
 		p := filepath.Join(x, "src", testMedia)
 		if s, err := os.Stat(p); err == nil && s.Mode().IsDir() {

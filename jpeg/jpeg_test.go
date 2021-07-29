@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/tajtiattila/metadata/testutil"
+	"github.com/robertkaelin/metadata/testutil"
 )
 
 func TestScanner(t *testing.T) {

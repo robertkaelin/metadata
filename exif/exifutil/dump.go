@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/tajtiattila/metadata/exif"
-	"github.com/tajtiattila/metadata/exif/exiftag"
+	"github.com/robertkaelin/metadata/exif"
+	"github.com/robertkaelin/metadata/exif/exiftag"
 )
 
 func Fdump(w io.Writer, x *exif.Exif) {

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tajtiattila/metadata/exif/exiftag"
+	"github.com/robertkaelin/metadata/exif/exiftag"
 )
 
 var (

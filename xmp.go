@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/tajtiattila/metadata/xmp"
+	"github.com/robertkaelin/metadata/xmp"
 )
 
 func FromXMPBytes(p []byte) (*Metadata, error) {
