@@ -1,3 +1,3 @@
-module github.com/robertkaelin/metadata
+module metadata
 
 go 1.16
