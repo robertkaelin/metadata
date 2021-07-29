@@ -374,7 +374,7 @@ type parser struct {
 	tmp []byte // scratch buffer
 }
 
-const maxParseSize = 1 << 20
+const maxParseSize = 1 << 50
 
 func (p *parser) Parse() error {
 	for {
